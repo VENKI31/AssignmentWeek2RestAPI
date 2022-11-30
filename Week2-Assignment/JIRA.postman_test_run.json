@@ -1,0 +1,179 @@
+{
+	"id": "1b7d20b1-68ee-40d8-8e54-36bd8ea0aec5",
+	"name": "JIRA",
+	"timestamp": "2022-11-30T14:15:41.080Z",
+	"collection_id": "23917353-878b63ac-5fb1-4b57-8712-ca9eae202672",
+	"folder_id": 0,
+	"environment_id": "23917353-7c970c80-56cd-4de0-b3a4-8b8cbbc12f25",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "23e0d4af-a4bb-420a-a714-1869707cc8ef",
+			"name": "CreateBug",
+			"time": 980,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1056,
+				980
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "8ff444b5-adb9-48eb-8712-bdddb1812b89",
+			"name": "GetBug",
+			"time": 455,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				419,
+				455
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "07ab244c-76cc-49d7-87fa-c17e6cd5393a",
+			"name": "UpdateBug",
+			"time": 487,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				530,
+				487
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "5f34432d-a94b-49d0-bfde-9885c8f13a42",
+			"name": "DeleteBug",
+			"time": 920,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				951,
+				920
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "fedb5043-9285-41e7-8429-bf30e5fbd7e4",
+			"name": "GetAllIssues",
+			"time": 563,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				496,
+				563
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "3edd5369-42d4-4aa8-a1f1-5c8618cfd36f",
+			"name": "GetIssueType",
+			"time": 301,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				301,
+				301
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "c34aad57-1abf-4013-a2ca-71390d5655fa",
+			"name": "SearchIssueType",
+			"time": 328,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				302,
+				328
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 8089,
+	"collection": {
+		"requests": [
+			{
+				"id": "23e0d4af-a4bb-420a-a714-1869707cc8ef",
+				"method": "POST"
+			},
+			{
+				"id": "8ff444b5-adb9-48eb-8712-bdddb1812b89",
+				"method": "GET"
+			},
+			{
+				"id": "07ab244c-76cc-49d7-87fa-c17e6cd5393a",
+				"method": "PUT"
+			},
+			{
+				"id": "5f34432d-a94b-49d0-bfde-9885c8f13a42",
+				"method": "DELETE"
+			},
+			{
+				"id": "fedb5043-9285-41e7-8429-bf30e5fbd7e4",
+				"method": "GET"
+			},
+			{
+				"id": "3edd5369-42d4-4aa8-a1f1-5c8618cfd36f",
+				"method": "GET"
+			},
+			{
+				"id": "c34aad57-1abf-4013-a2ca-71390d5655fa",
+				"method": "GET"
+			}
+		]
+	}
+}

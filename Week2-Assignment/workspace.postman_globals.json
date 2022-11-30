@@ -1,0 +1,39 @@
+{
+	"id": "1f9ed4cc-0161-4064-83ce-16c00fe3c1ce",
+	"values": [
+		{
+			"key": "G_sysid",
+			"value": "",
+			"type": "any",
+			"enabled": false
+		},
+		{
+			"key": "guid",
+			"value": "",
+			"type": "default",
+			"enabled": false
+		},
+		{
+			"key": "SITURL",
+			"value": "www.dneonline.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "id",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "keyid",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2022-11-30T14:19:18.130Z",
+	"_postman_exported_using": "Postman/10.5.2"
+}

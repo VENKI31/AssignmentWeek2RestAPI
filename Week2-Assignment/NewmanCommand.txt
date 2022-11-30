@@ -1,0 +1,1 @@
+D:\WeeklyAssignment\Week2-Assignment>newman run D:\WeeklyAssignment\Week2-Assignment\JIRA.postman_collection.json -r htmlextra -g D:\WeeklyAssignment\Week2-Assignment\workspace.postman_globals.json -d Data.csv
